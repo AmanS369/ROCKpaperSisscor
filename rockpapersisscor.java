@@ -13,12 +13,12 @@ Random ra = new Random();
   System.out.println("2-> Sisscor");
   System.out.println("3-> paper");
   
-    int a = sc.nextInt() ;
+    int a = sc.nextInt(3) ;
     switch (a) {
     case 1-> System.out.println("you selected Rock");
     case 2-> System.out.println("you selected Sisscor");
-    case 3-> System.out.println("you selected Paper");  
-    default -> System.out.println("Play Peacefully");}
+    case 3-> System.out.println("you selected Paper"); } 
+   // default -> System.out.println("Play Peacefully");}
     
     System.out.println("Now Computer will Select his side");
     int b = ra.nextInt(3);
